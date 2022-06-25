@@ -1,0 +1,341 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
+
+
+@media screen and (max-width: 992px) {
+    .navbar-collapse {
+        background-color: #212529;
+        padding: 5px 10px 15px 10px;
+        margin-top: 5px;
+    }
+    
+}
+
+:root {
+    --dark: #212529;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.icon::before {
+    content: '<i class="fi fi-rr-camera">';
+}
+
+
+/* Navbar */
+
+.navbar {
+    z-index: 5;
+    transition: all .5s ease-in-out;
+}
+
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-link.active {
+    font-weight: 600;
+}
+
+
+.btn-signup {
+    background: transparent;
+    color: #FFF;
+}
+
+.btn-signup:hover {
+    color: #FFF;
+    border: 1px solid --white;
+}
+
+.btn-login {
+    background-color: #FFF;
+    border: none;
+    color: var(--dark);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-login:hover {
+    background-color: var(--dark);
+    color: #FFF;
+    border: 1px solid #FFF;
+}
+
+
+/* Banner */
+
+#banner .card {
+    border: none;
+}
+
+#banner .card-header {
+    padding: 70px 0 30px 0;
+}
+
+#banner .carousel-item {
+    height: 65px;
+}
+
+#banner .promo {
+    font-size: 18px;
+    margin: 0;
+}
+
+#banner .link {
+    font-size: 14px;
+    color: #000;
+}
+
+#banner .card-title {
+    font-weight: 700;
+    font-size: 52px;
+}
+
+.btn-banner:hover {
+    color: #FFF !important;
+}
+
+
+/* Hero */
+
+#hero {
+    background-image: url('../assets/img/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.hero-tagline h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 72px;
+}
+
+.hero-tagline p {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.btn-hero:hover {
+    color: #000;
+    transition: all .2s ease-in;
+}
+
+
+/* Shop */
+
+#shop .card {
+    cursor: pointer;
+}
+
+#shop .card-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFF;
+}
+
+#shop .card-img-overlay {
+    background: rgba(0, 0, 0, 0.1);
+}
+#shop .card-img-overlay:hover {
+    background: rgba(0, 0, 0, 0.5);
+    transition: all .3s ease-in;
+}
+
+.shop-title {
+    font-size: 24px;
+}
+
+.btn-shop:hover {
+    border: 1px solid var(--dark);
+    background-color: var(--dark);
+    color: #FFF;
+    transition: all .3s ease-in;
+}
+
+
+/* Footer */
+
+footer {
+    padding-top: 8px;
+    background-color: #000;
+    color: #FFF;
+    position:absolute;
+    width: 100%;
+}
+
+.brand-logo {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 600;
+}
+
+.brand-logo:hover {
+    color: #FFF;
+}
+
+.footer-menu a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer-menu a:hover {
+    color: var(--dark);
+}
+
+.copyright {
+    font-size: 12px;
+}
+
+
+/* Product */
+
+#product .product-title {
+    font-weight: 700;
+    font-size: 50px;
+    padding-top: 90px;
+}
+
+
+#product .stok {
+    font-size: 14px;
+}
+
+.btn-product {
+    height: 30px;
+    width: 49%;
+} 
+
+.btn-edit {
+    width: 120px;
+}
+
+.card-product {
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: all .2s ease-in;
+}
+
+.card-product:hover {
+    box-shadow: none;
+    transition: all .2s ease-in;
+}
+
+
+/* Contact */
+
+#contact {
+
+    background-image: url('../assets/img/contact-bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFF;
+}
+
+#contact .overlay {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#contact .container {
+    padding: 80px 60px 30px 60px;
+}
+
+.contact-content h3 {
+    font-weight: 600;
+    font-size: 42px;
+}
+
+.contact-help {
+    font-size: 28px;
+}
+
+.contact-content h6 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.contact-items p {
+    font-size: 16px;
+    line-height: 60x;
+}
+
+.social a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+}
+
+.social a:hover {
+    text-decoration: none;
+    color: inherit;
+    color: #555658;
+    transition: all .2s ease-out;
+}
+
+.social {
+    margin-top: 12px;
+}
+
+.form-contact h3 {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.button-contact {
+    width: 90px;
+    height: 35px;
+    background-color: #3985f7;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+
+.form-floating label {
+    color: #000;
+}
+
+
+/* Order */
+
+#order {
+    height: 100%;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.order-title {
+    text-align: center;
+}
+
+#order .container {
+    padding: 70px 0 30px 0;
+}
+
+#order thead th {
+    text-align: center;
+}
+
+

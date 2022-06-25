@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+  
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+
+</head>
+<body>
+    <table id="table_id" class="display">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Job Title</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Diane</td>
+                <td>Murphy</td>
+                <td>dianemurphy@gmail.com</td>
+                <td>President</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>Patterson</td>
+                <td>marrypatterson@gmail.com</td>
+                <td>Sales Manager</td>
+            </tr>
+            <tr>
+                <td>Jeff</td>
+                <td>Firrelli</td>
+                <td>jfirrelli@gmail.com</td>
+                <td>Marketing Manager</td>
+            </tr>
+            <tr>
+                <td>Gerald</td>
+                <td>Bow</td>
+                <td>geraldbow@gmail.com</td>
+                <td>HR Manager</td>
+            </tr>
+            <tr>
+                <td>William</td>
+                <td>Bondur</td>
+                <td>willbond@gmail.com</td>
+                <td>Secretary</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+    $(document).ready( function () {
+        $('#table_id').DataTable();
+} );
+    </script>
+</body>
+</html>

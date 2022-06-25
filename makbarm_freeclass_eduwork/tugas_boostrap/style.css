@@ -1,0 +1,110 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-brand {
+    width: 240px;
+}
+
+
+.nav-link {
+    margin: 21px 10px;
+    color: #666666;
+    font-size: 1.1em;
+}
+
+.active {
+    color: #42B8FE;
+    border-bottom: 5px solid #42B8FE;
+}
+
+.fa-sign-in::before {
+    margin-right: 10px;
+}
+
+.nav-link:hover {
+    color: #42B8FE;
+}
+
+#navbarNavDropdown {
+    font-weight: 700;
+}
+
+.btn-register {
+    margin-left: 30px;
+    font-weight: 700;
+    background-color: #42B8FE;
+    color: #fff;
+    border: none;
+    padding: 13px 32px;
+    text-transform: uppercase;
+}
+
+.hero {
+    background: url('assets/hero3.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 400px;
+}
+
+.hero::after {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: #007bffb6;
+    width: 100%;
+    height: 800px;
+}
+
+.hero h1, .hero p, .btn-hero {
+    z-index: 1;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.btn-hero {
+    font-weight: 700;
+    background-color: #04436D;
+    color: #fff;
+    border: none;
+}
+
+.info-panel {
+    padding: 100px 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content .thumb {
+    width: 100px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.content h4 {
+    color: #42B8FE;
+    font-weight: 700;
+}
+
+.content p {
+    color: rgb(104, 104, 104);
+    font-size: 22px;
+    font-weight: 500;
+}
